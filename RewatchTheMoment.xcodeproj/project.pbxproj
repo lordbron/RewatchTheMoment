@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F935D5BA15227A330035E3BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5B915227A330035E3BF /* UIKit.framework */; };
+		F935D5BC15227A330035E3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5BB15227A330035E3BF /* Foundation.framework */; };
+		F935D5BE15227A330035E3BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5BD15227A330035E3BF /* CoreGraphics.framework */; };
+		F935D5C415227A330035E3BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F935D5C215227A330035E3BF /* InfoPlist.strings */; };
+		F935D5C615227A330035E3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5C515227A330035E3BF /* main.m */; };
+		F935D5CA15227A330035E3BF /* RTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5C915227A330035E3BF /* RTMAppDelegate.m */; };
+		F935D5CD15227A340035E3BF /* RTMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5CC15227A340035E3BF /* RTMRootViewController.m */; };
+		F935D5D015227A340035E3BF /* RTMDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5CF15227A340035E3BF /* RTMDataViewController.m */; };
+		F935D5D315227A340035E3BF /* RTMModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5D215227A340035E3BF /* RTMModelController.m */; };
+		F935D5D615227A340035E3BF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F935D5D415227A340035E3BF /* MainStoryboard.storyboard */; };
+		F935D5DE15227A340035E3BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5DD15227A340035E3BF /* SenTestingKit.framework */; };
+		F935D5DF15227A340035E3BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5B915227A330035E3BF /* UIKit.framework */; };
+		F935D5E015227A340035E3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5BB15227A330035E3BF /* Foundation.framework */; };
+		F935D5E815227A340035E3BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F935D5E615227A340035E3BF /* InfoPlist.strings */; };
+		F935D5EB15227A340035E3BF /* RewatchTheMomentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5EA15227A340035E3BF /* RewatchTheMomentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F935D5E115227A340035E3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F935D5AC15227A330035E3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F935D5B415227A330035E3BF;
+			remoteInfo = RewatchTheMoment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F935D5B515227A330035E3BF /* RewatchTheMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewatchTheMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F935D5B915227A330035E3BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F935D5BB15227A330035E3BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F935D5BD15227A330035E3BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F935D5C115227A330035E3BF /* RewatchTheMoment-Info.plist */ = {isa = PBXFileReference; path = "RewatchTheMoment-Info.plist"; sourceTree = "<group>"; };
+		F935D5C315227A330035E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F935D5C515227A330035E3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F935D5C715227A330035E3BF /* RewatchTheMoment-Prefix.pch */ = {isa = PBXFileReference; path = "RewatchTheMoment-Prefix.pch"; sourceTree = "<group>"; };
+		F935D5C815227A330035E3BF /* RTMAppDelegate.h */ = {isa = PBXFileReference; path = RTMAppDelegate.h; sourceTree = "<group>"; };
+		F935D5C915227A330035E3BF /* RTMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMAppDelegate.m; sourceTree = "<group>"; };
+		F935D5CB15227A340035E3BF /* RTMRootViewController.h */ = {isa = PBXFileReference; path = RTMRootViewController.h; sourceTree = "<group>"; };
+		F935D5CC15227A340035E3BF /* RTMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMRootViewController.m; sourceTree = "<group>"; };
+		F935D5CE15227A340035E3BF /* RTMDataViewController.h */ = {isa = PBXFileReference; path = RTMDataViewController.h; sourceTree = "<group>"; };
+		F935D5CF15227A340035E3BF /* RTMDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMDataViewController.m; sourceTree = "<group>"; };
+		F935D5D115227A340035E3BF /* RTMModelController.h */ = {isa = PBXFileReference; path = RTMModelController.h; sourceTree = "<group>"; };
+		F935D5D215227A340035E3BF /* RTMModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMModelController.m; sourceTree = "<group>"; };
+		F935D5D515227A340035E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F935D5DC15227A340035E3BF /* RewatchTheMomentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewatchTheMomentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F935D5DD15227A340035E3BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F935D5E515227A340035E3BF /* RewatchTheMomentTests-Info.plist */ = {isa = PBXFileReference; path = "RewatchTheMomentTests-Info.plist"; sourceTree = "<group>"; };
+		F935D5E715227A340035E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F935D5E915227A340035E3BF /* RewatchTheMomentTests.h */ = {isa = PBXFileReference; path = RewatchTheMomentTests.h; sourceTree = "<group>"; };
+		F935D5EA15227A340035E3BF /* RewatchTheMomentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewatchTheMomentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F935D5B215227A330035E3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F935D5BA15227A330035E3BF /* UIKit.framework in Frameworks */,
+				F935D5BC15227A330035E3BF /* Foundation.framework in Frameworks */,
+				F935D5BE15227A330035E3BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F935D5D815227A340035E3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F935D5DE15227A340035E3BF /* SenTestingKit.framework in Frameworks */,
+				F935D5DF15227A340035E3BF /* UIKit.framework in Frameworks */,
+				F935D5E015227A340035E3BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F935D5AA15227A330035E3BF = {
+			isa = PBXGroup;
+			children = (
+				F935D5BF15227A330035E3BF /* RewatchTheMoment */,
+				F935D5E315227A340035E3BF /* RewatchTheMomentTests */,
+				F935D5B815227A330035E3BF /* Frameworks */,
+				F935D5B615227A330035E3BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F935D5B615227A330035E3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F935D5B515227A330035E3BF /* RewatchTheMoment.app */,
+				F935D5DC15227A340035E3BF /* RewatchTheMomentTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F935D5B815227A330035E3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F935D5B915227A330035E3BF /* UIKit.framework */,
+				F935D5BB15227A330035E3BF /* Foundation.framework */,
+				F935D5BD15227A330035E3BF /* CoreGraphics.framework */,
+				F935D5DD15227A340035E3BF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F935D5BF15227A330035E3BF /* RewatchTheMoment */ = {
+			isa = PBXGroup;
+			children = (
+				F935D5C815227A330035E3BF /* RTMAppDelegate.h */,
+				F935D5C915227A330035E3BF /* RTMAppDelegate.m */,
+				F935D5CB15227A340035E3BF /* RTMRootViewController.h */,
+				F935D5CC15227A340035E3BF /* RTMRootViewController.m */,
+				F935D5CE15227A340035E3BF /* RTMDataViewController.h */,
+				F935D5CF15227A340035E3BF /* RTMDataViewController.m */,
+				F935D5D115227A340035E3BF /* RTMModelController.h */,
+				F935D5D215227A340035E3BF /* RTMModelController.m */,
+				F935D5D415227A340035E3BF /* MainStoryboard.storyboard */,
+				F935D5C015227A330035E3BF /* Supporting Files */,
+			);
+			path = RewatchTheMoment;
+			sourceTree = "<group>";
+		};
+		F935D5C015227A330035E3BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F935D5C115227A330035E3BF /* RewatchTheMoment-Info.plist */,
+				F935D5C215227A330035E3BF /* InfoPlist.strings */,
+				F935D5C515227A330035E3BF /* main.m */,
+				F935D5C715227A330035E3BF /* RewatchTheMoment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F935D5E315227A340035E3BF /* RewatchTheMomentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F935D5E915227A340035E3BF /* RewatchTheMomentTests.h */,
+				F935D5EA15227A340035E3BF /* RewatchTheMomentTests.m */,
+				F935D5E415227A340035E3BF /* Supporting Files */,
+			);
+			path = RewatchTheMomentTests;
+			sourceTree = "<group>";
+		};
+		F935D5E415227A340035E3BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F935D5E515227A340035E3BF /* RewatchTheMomentTests-Info.plist */,
+				F935D5E615227A340035E3BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F935D5B415227A330035E3BF /* RewatchTheMoment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F935D5EE15227A340035E3BF /* Build configuration list for PBXNativeTarget "RewatchTheMoment" */;
+			buildPhases = (
+				F935D5B115227A330035E3BF /* Sources */,
+				F935D5B215227A330035E3BF /* Frameworks */,
+				F935D5B315227A330035E3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RewatchTheMoment;
+			productName = RewatchTheMoment;
+			productReference = F935D5B515227A330035E3BF /* RewatchTheMoment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F935D5DB15227A340035E3BF /* RewatchTheMomentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F935D5F115227A340035E3BF /* Build configuration list for PBXNativeTarget "RewatchTheMomentTests" */;
+			buildPhases = (
+				F935D5D715227A340035E3BF /* Sources */,
+				F935D5D815227A340035E3BF /* Frameworks */,
+				F935D5D915227A340035E3BF /* Resources */,
+				F935D5DA15227A340035E3BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F935D5E215227A340035E3BF /* PBXTargetDependency */,
+			);
+			name = RewatchTheMomentTests;
+			productName = RewatchTheMomentTests;
+			productReference = F935D5DC15227A340035E3BF /* RewatchTheMomentTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F935D5AC15227A330035E3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RTM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F935D5AF15227A330035E3BF /* Build configuration list for PBXProject "RewatchTheMoment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F935D5AA15227A330035E3BF;
+			productRefGroup = F935D5B615227A330035E3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F935D5B415227A330035E3BF /* RewatchTheMoment */,
+				F935D5DB15227A340035E3BF /* RewatchTheMomentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F935D5B315227A330035E3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F935D5C415227A330035E3BF /* InfoPlist.strings in Resources */,
+				F935D5D615227A340035E3BF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F935D5D915227A340035E3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F935D5E815227A340035E3BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F935D5DA15227A340035E3BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F935D5B115227A330035E3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F935D5C615227A330035E3BF /* main.m in Sources */,
+				F935D5CA15227A330035E3BF /* RTMAppDelegate.m in Sources */,
+				F935D5CD15227A340035E3BF /* RTMRootViewController.m in Sources */,
+				F935D5D015227A340035E3BF /* RTMDataViewController.m in Sources */,
+				F935D5D315227A340035E3BF /* RTMModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F935D5D715227A340035E3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F935D5EB15227A340035E3BF /* RewatchTheMomentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F935D5E215227A340035E3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F935D5B415227A330035E3BF /* RewatchTheMoment */;
+			targetProxy = F935D5E115227A340035E3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F935D5C215227A330035E3BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F935D5C315227A330035E3BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F935D5D415227A340035E3BF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F935D5D515227A340035E3BF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F935D5E615227A340035E3BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F935D5E715227A340035E3BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F935D5EC15227A340035E3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F935D5ED15227A340035E3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F935D5EF15227A340035E3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RewatchTheMoment/RewatchTheMoment-Prefix.pch";
+				INFOPLIST_FILE = "RewatchTheMoment/RewatchTheMoment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F935D5F015227A340035E3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RewatchTheMoment/RewatchTheMoment-Prefix.pch";
+				INFOPLIST_FILE = "RewatchTheMoment/RewatchTheMoment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F935D5F215227A340035E3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RewatchTheMoment.app/RewatchTheMoment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RewatchTheMoment/RewatchTheMoment-Prefix.pch";
+				INFOPLIST_FILE = "RewatchTheMomentTests/RewatchTheMomentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F935D5F315227A340035E3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RewatchTheMoment.app/RewatchTheMoment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RewatchTheMoment/RewatchTheMoment-Prefix.pch";
+				INFOPLIST_FILE = "RewatchTheMomentTests/RewatchTheMomentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F935D5AF15227A330035E3BF /* Build configuration list for PBXProject "RewatchTheMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F935D5EC15227A340035E3BF /* Debug */,
+				F935D5ED15227A340035E3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F935D5EE15227A340035E3BF /* Build configuration list for PBXNativeTarget "RewatchTheMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F935D5EF15227A340035E3BF /* Debug */,
+				F935D5F015227A340035E3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F935D5F115227A340035E3BF /* Build configuration list for PBXNativeTarget "RewatchTheMomentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F935D5F215227A340035E3BF /* Debug */,
+				F935D5F315227A340035E3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F935D5AC15227A330035E3BF /* Project object */;
+}
