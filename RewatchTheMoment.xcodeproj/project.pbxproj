@@ -14,14 +14,15 @@
 		F935D5C615227A330035E3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5C515227A330035E3BF /* main.m */; };
 		F935D5CA15227A330035E3BF /* RTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5C915227A330035E3BF /* RTMAppDelegate.m */; };
 		F935D5CD15227A340035E3BF /* RTMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5CC15227A340035E3BF /* RTMRootViewController.m */; };
-		F935D5D015227A340035E3BF /* RTMDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5CF15227A340035E3BF /* RTMDataViewController.m */; };
-		F935D5D315227A340035E3BF /* RTMModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5D215227A340035E3BF /* RTMModelController.m */; };
 		F935D5D615227A340035E3BF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F935D5D415227A340035E3BF /* MainStoryboard.storyboard */; };
 		F935D5DE15227A340035E3BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5DD15227A340035E3BF /* SenTestingKit.framework */; };
 		F935D5DF15227A340035E3BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5B915227A330035E3BF /* UIKit.framework */; };
 		F935D5E015227A340035E3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935D5BB15227A330035E3BF /* Foundation.framework */; };
 		F935D5E815227A340035E3BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F935D5E615227A340035E3BF /* InfoPlist.strings */; };
 		F935D5EB15227A340035E3BF /* RewatchTheMomentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5EA15227A340035E3BF /* RewatchTheMomentTests.m */; };
+		F935D5FB15231E520035E3BF /* RTMMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5FA15231E520035E3BF /* RTMMyInfoViewController.m */; };
+		F935D5FE15231E740035E3BF /* RTMMyInterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5FD15231E740035E3BF /* RTMMyInterestsViewController.m */; };
+		F94C58D5152332CB00607A46 /* RTMCareBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94C58D4152332CB00607A46 /* RTMCareBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,25 +40,27 @@
 		F935D5B915227A330035E3BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F935D5BB15227A330035E3BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F935D5BD15227A330035E3BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F935D5C115227A330035E3BF /* RewatchTheMoment-Info.plist */ = {isa = PBXFileReference; path = "RewatchTheMoment-Info.plist"; sourceTree = "<group>"; };
+		F935D5C115227A330035E3BF /* RewatchTheMoment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RewatchTheMoment-Info.plist"; sourceTree = "<group>"; };
 		F935D5C315227A330035E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F935D5C515227A330035E3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F935D5C715227A330035E3BF /* RewatchTheMoment-Prefix.pch */ = {isa = PBXFileReference; path = "RewatchTheMoment-Prefix.pch"; sourceTree = "<group>"; };
-		F935D5C815227A330035E3BF /* RTMAppDelegate.h */ = {isa = PBXFileReference; path = RTMAppDelegate.h; sourceTree = "<group>"; };
+		F935D5C715227A330035E3BF /* RewatchTheMoment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RewatchTheMoment-Prefix.pch"; sourceTree = "<group>"; };
+		F935D5C815227A330035E3BF /* RTMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMAppDelegate.h; sourceTree = "<group>"; };
 		F935D5C915227A330035E3BF /* RTMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMAppDelegate.m; sourceTree = "<group>"; };
-		F935D5CB15227A340035E3BF /* RTMRootViewController.h */ = {isa = PBXFileReference; path = RTMRootViewController.h; sourceTree = "<group>"; };
+		F935D5CB15227A340035E3BF /* RTMRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMRootViewController.h; sourceTree = "<group>"; };
 		F935D5CC15227A340035E3BF /* RTMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMRootViewController.m; sourceTree = "<group>"; };
-		F935D5CE15227A340035E3BF /* RTMDataViewController.h */ = {isa = PBXFileReference; path = RTMDataViewController.h; sourceTree = "<group>"; };
-		F935D5CF15227A340035E3BF /* RTMDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMDataViewController.m; sourceTree = "<group>"; };
-		F935D5D115227A340035E3BF /* RTMModelController.h */ = {isa = PBXFileReference; path = RTMModelController.h; sourceTree = "<group>"; };
-		F935D5D215227A340035E3BF /* RTMModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMModelController.m; sourceTree = "<group>"; };
 		F935D5D515227A340035E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F935D5DC15227A340035E3BF /* RewatchTheMomentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewatchTheMomentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F935D5DD15227A340035E3BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F935D5E515227A340035E3BF /* RewatchTheMomentTests-Info.plist */ = {isa = PBXFileReference; path = "RewatchTheMomentTests-Info.plist"; sourceTree = "<group>"; };
+		F935D5E515227A340035E3BF /* RewatchTheMomentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RewatchTheMomentTests-Info.plist"; sourceTree = "<group>"; };
 		F935D5E715227A340035E3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F935D5E915227A340035E3BF /* RewatchTheMomentTests.h */ = {isa = PBXFileReference; path = RewatchTheMomentTests.h; sourceTree = "<group>"; };
+		F935D5E915227A340035E3BF /* RewatchTheMomentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewatchTheMomentTests.h; sourceTree = "<group>"; };
 		F935D5EA15227A340035E3BF /* RewatchTheMomentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewatchTheMomentTests.m; sourceTree = "<group>"; };
+		F935D5F915231E510035E3BF /* RTMMyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMMyInfoViewController.h; sourceTree = "<group>"; };
+		F935D5FA15231E520035E3BF /* RTMMyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMMyInfoViewController.m; sourceTree = "<group>"; };
+		F935D5FC15231E730035E3BF /* RTMMyInterestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMMyInterestsViewController.h; sourceTree = "<group>"; };
+		F935D5FD15231E740035E3BF /* RTMMyInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMMyInterestsViewController.m; sourceTree = "<group>"; };
+		F94C58D3152332CB00607A46 /* RTMCareBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMCareBaseViewController.h; sourceTree = "<group>"; };
+		F94C58D4152332CB00607A46 /* RTMCareBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMCareBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,12 +124,14 @@
 				F935D5C915227A330035E3BF /* RTMAppDelegate.m */,
 				F935D5CB15227A340035E3BF /* RTMRootViewController.h */,
 				F935D5CC15227A340035E3BF /* RTMRootViewController.m */,
-				F935D5CE15227A340035E3BF /* RTMDataViewController.h */,
-				F935D5CF15227A340035E3BF /* RTMDataViewController.m */,
-				F935D5D115227A340035E3BF /* RTMModelController.h */,
-				F935D5D215227A340035E3BF /* RTMModelController.m */,
 				F935D5D415227A340035E3BF /* MainStoryboard.storyboard */,
 				F935D5C015227A330035E3BF /* Supporting Files */,
+				F935D5F915231E510035E3BF /* RTMMyInfoViewController.h */,
+				F935D5FA15231E520035E3BF /* RTMMyInfoViewController.m */,
+				F935D5FC15231E730035E3BF /* RTMMyInterestsViewController.h */,
+				F935D5FD15231E740035E3BF /* RTMMyInterestsViewController.m */,
+				F94C58D3152332CB00607A46 /* RTMCareBaseViewController.h */,
+				F94C58D4152332CB00607A46 /* RTMCareBaseViewController.m */,
 			);
 			path = RewatchTheMoment;
 			sourceTree = "<group>";
@@ -271,8 +276,9 @@
 				F935D5C615227A330035E3BF /* main.m in Sources */,
 				F935D5CA15227A330035E3BF /* RTMAppDelegate.m in Sources */,
 				F935D5CD15227A340035E3BF /* RTMRootViewController.m in Sources */,
-				F935D5D015227A340035E3BF /* RTMDataViewController.m in Sources */,
-				F935D5D315227A340035E3BF /* RTMModelController.m in Sources */,
+				F935D5FB15231E520035E3BF /* RTMMyInfoViewController.m in Sources */,
+				F935D5FE15231E740035E3BF /* RTMMyInterestsViewController.m in Sources */,
+				F94C58D5152332CB00607A46 /* RTMCareBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +448,7 @@
 				F935D5F015227A340035E3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F935D5F115227A340035E3BF /* Build configuration list for PBXNativeTarget "RewatchTheMomentTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				F935D5F315227A340035E3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

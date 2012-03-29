@@ -3,7 +3,7 @@
 //  RewatchTheMoment
 //
 //  Created by Thomas Ortega II on 3/27/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Omega Ortega / Area 161. All rights reserved.
 //
 
 #import "RTMAppDelegate.h"
