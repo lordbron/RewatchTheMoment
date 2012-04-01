@@ -23,6 +23,14 @@
 		F935D5FB15231E520035E3BF /* RTMMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5FA15231E520035E3BF /* RTMMyInfoViewController.m */; };
 		F935D5FE15231E740035E3BF /* RTMMyInterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F935D5FD15231E740035E3BF /* RTMMyInterestsViewController.m */; };
 		F94C58D5152332CB00607A46 /* RTMCareBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94C58D4152332CB00607A46 /* RTMCareBaseViewController.m */; };
+		F9B6CBBD15272084001DCE05 /* background_homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B6CBB715272084001DCE05 /* background_homepage.png */; };
+		F9B6CBBE15272084001DCE05 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B6CBB815272084001DCE05 /* background.png */; };
+		F9B6CBBF15272084001DCE05 /* myinfo_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B6CBB915272084001DCE05 /* myinfo_button.png */; };
+		F9B6CBC015272084001DCE05 /* record_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B6CBBA15272084001DCE05 /* record_button.png */; };
+		F9B6CBC115272084001DCE05 /* rewatch_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B6CBBB15272084001DCE05 /* rewatch_button.png */; };
+		F9B6CBC215272084001DCE05 /* share_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B6CBBC15272084001DCE05 /* share_button.png */; };
+		F9FD6E8A15252E8800CBB389 /* RTMRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD6E8915252E8800CBB389 /* RTMRecordViewController.m */; };
+		F9FD6E8D152533E200CBB389 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FD6E8C152533E200CBB389 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +69,15 @@
 		F935D5FD15231E740035E3BF /* RTMMyInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMMyInterestsViewController.m; sourceTree = "<group>"; };
 		F94C58D3152332CB00607A46 /* RTMCareBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMCareBaseViewController.h; sourceTree = "<group>"; };
 		F94C58D4152332CB00607A46 /* RTMCareBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMCareBaseViewController.m; sourceTree = "<group>"; };
+		F9B6CBB715272084001DCE05 /* background_homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_homepage.png; sourceTree = "<group>"; };
+		F9B6CBB815272084001DCE05 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F9B6CBB915272084001DCE05 /* myinfo_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myinfo_button.png; sourceTree = "<group>"; };
+		F9B6CBBA15272084001DCE05 /* record_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_button.png; sourceTree = "<group>"; };
+		F9B6CBBB15272084001DCE05 /* rewatch_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewatch_button.png; sourceTree = "<group>"; };
+		F9B6CBBC15272084001DCE05 /* share_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_button.png; sourceTree = "<group>"; };
+		F9FD6E8815252E8800CBB389 /* RTMRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMRecordViewController.h; sourceTree = "<group>"; };
+		F9FD6E8915252E8800CBB389 /* RTMRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMRecordViewController.m; sourceTree = "<group>"; };
+		F9FD6E8C152533E200CBB389 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FD6E8D152533E200CBB389 /* MobileCoreServices.framework in Frameworks */,
 				F935D5BA15227A330035E3BF /* UIKit.framework in Frameworks */,
 				F935D5BC15227A330035E3BF /* Foundation.framework in Frameworks */,
 				F935D5BE15227A330035E3BF /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +108,7 @@
 		F935D5AA15227A330035E3BF = {
 			isa = PBXGroup;
 			children = (
+				F9FD6E8C152533E200CBB389 /* MobileCoreServices.framework */,
 				F935D5BF15227A330035E3BF /* RewatchTheMoment */,
 				F935D5E315227A340035E3BF /* RewatchTheMomentTests */,
 				F935D5B815227A330035E3BF /* Frameworks */,
@@ -126,12 +145,15 @@
 				F935D5CC15227A340035E3BF /* RTMRootViewController.m */,
 				F935D5D415227A340035E3BF /* MainStoryboard.storyboard */,
 				F935D5C015227A330035E3BF /* Supporting Files */,
+				F9B6CBB51527206B001DCE05 /* Images */,
 				F935D5F915231E510035E3BF /* RTMMyInfoViewController.h */,
 				F935D5FA15231E520035E3BF /* RTMMyInfoViewController.m */,
 				F935D5FC15231E730035E3BF /* RTMMyInterestsViewController.h */,
 				F935D5FD15231E740035E3BF /* RTMMyInterestsViewController.m */,
 				F94C58D3152332CB00607A46 /* RTMCareBaseViewController.h */,
 				F94C58D4152332CB00607A46 /* RTMCareBaseViewController.m */,
+				F9FD6E8815252E8800CBB389 /* RTMRecordViewController.h */,
+				F9FD6E8915252E8800CBB389 /* RTMRecordViewController.m */,
 			);
 			path = RewatchTheMoment;
 			sourceTree = "<group>";
@@ -164,6 +186,19 @@
 				F935D5E615227A340035E3BF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9B6CBB51527206B001DCE05 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F9B6CBB715272084001DCE05 /* background_homepage.png */,
+				F9B6CBB815272084001DCE05 /* background.png */,
+				F9B6CBB915272084001DCE05 /* myinfo_button.png */,
+				F9B6CBBA15272084001DCE05 /* record_button.png */,
+				F9B6CBBB15272084001DCE05 /* rewatch_button.png */,
+				F9B6CBBC15272084001DCE05 /* share_button.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +274,12 @@
 			files = (
 				F935D5C415227A330035E3BF /* InfoPlist.strings in Resources */,
 				F935D5D615227A340035E3BF /* MainStoryboard.storyboard in Resources */,
+				F9B6CBBD15272084001DCE05 /* background_homepage.png in Resources */,
+				F9B6CBBE15272084001DCE05 /* background.png in Resources */,
+				F9B6CBBF15272084001DCE05 /* myinfo_button.png in Resources */,
+				F9B6CBC015272084001DCE05 /* record_button.png in Resources */,
+				F9B6CBC115272084001DCE05 /* rewatch_button.png in Resources */,
+				F9B6CBC215272084001DCE05 /* share_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +320,7 @@
 				F935D5FB15231E520035E3BF /* RTMMyInfoViewController.m in Sources */,
 				F935D5FE15231E740035E3BF /* RTMMyInterestsViewController.m in Sources */,
 				F94C58D5152332CB00607A46 /* RTMCareBaseViewController.m in Sources */,
+				F9FD6E8A15252E8800CBB389 /* RTMRecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

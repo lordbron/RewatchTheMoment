@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/UTCoreTypes.h>
 
-@interface RTMRootViewController : UIViewController 
+@interface RTMRootViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
 
 @end
